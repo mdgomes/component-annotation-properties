@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>io.primeval.component.annotation</groupId>
 	<artifactId>component-annotation-properties</artifactId>
-	<version>2.0.0</version>
+	<version>2.2.0</version>
 
 	<name>Declarative Services Annotation Properties</name>
 
@@ -46,14 +46,14 @@
 		<!-- OSGi -->
 		<dependency>
 			<groupId>org.osgi</groupId>
-			<artifactId>org.osgi.core</artifactId>
-			<version>6.0.0</version>
+			<artifactId>osgi.core</artifactId>
+			<version>8.0.0</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.osgi</groupId>
-			<artifactId>org.osgi.annotation</artifactId>
-			<version>6.0.0</version>
+			<artifactId>osgi.annotation</artifactId>
+			<version>8.0.1</version>
 		</dependency>
 
 	</dependencies>
@@ -75,7 +75,7 @@
 					<plugin>
 						<groupId>org.apache.maven.plugins</groupId>
 						<artifactId>maven-javadoc-plugin</artifactId>
-						<version>2.10.3</version>
+						<version>3.5.0</version>
 						<executions>
 							<execution>
 								<id>generate-javadoc</id>
@@ -93,7 +93,7 @@
 					<plugin>
 						<groupId>org.apache.maven.plugins</groupId>
 						<artifactId>maven-source-plugin</artifactId>
-						<version>2.2.1</version>
+						<version>3.3.0</version>
 						<executions>
 							<execution>
 								<id>attach-sources</id>
@@ -106,7 +106,7 @@
 					<plugin>
 						<groupId>org.apache.maven.plugins</groupId>
 						<artifactId>maven-gpg-plugin</artifactId>
-						<version>1.5</version>
+						<version>3.1.0</version>
 						<executions>
 							<execution>
 								<id>sign-artifacts</id>
